@@ -1,0 +1,63 @@
+Body {
+    color: rgb(37, 11, 37);
+    background: rgb(214, 139, 174);
+    margin: 0px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(29, 15, 25);
+    padding: 20px;
+    font-size: 45px;
+    color: rgb(95, 44, 70);
+}
+
+.chamada {
+    background: url("https://1.bp.blogspot.com/-bNc6elFmzNQ/X_FTv8SGKtI/AAAAAAABChE/UrKUIb4LEykq4XdInBZmgVcKzk67i6aoACLcBGAsYHQ/s2560/moon_clouds_sky_194112_2560x1440.jpg");
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(147, 99, 211);
+}
+
+.categoria h2 {
+    color: rgb(3, 3, 3);
+}
